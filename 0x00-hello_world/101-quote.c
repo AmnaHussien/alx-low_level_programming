@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * Description: C proram print aquote using write function
- *      write(int fd,cont void *buf,size_t count)
- * Return: 1 (not success)
+ *     ssize_t  write(int fd, cont void *buf, size_t count);
+ * Return: 1 (error).
  */i
 int main(void)
 {
