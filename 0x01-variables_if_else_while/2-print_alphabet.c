@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-char c = 'a';
-while (c < = 'z')
-{putchar(c);
-c++;
+char ch = 'a';
+while (ch <= 'z')
+{putchar(ch);
+ch++;
 }
 return (0);
 }
