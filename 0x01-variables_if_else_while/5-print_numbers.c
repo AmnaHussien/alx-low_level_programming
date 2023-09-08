@@ -9,7 +9,7 @@
 int main(void)
 {int i;
 while (i <= 9)
-{putchar(i + 48)
+{putchar(i + 48);
 i++;
 }
 return (0);
