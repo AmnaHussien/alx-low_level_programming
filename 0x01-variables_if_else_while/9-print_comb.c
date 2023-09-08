@@ -13,9 +13,10 @@ while (i <= 9)
 {
 putchar(i + 48);
 if (i != 9)
-printf(',');
-printf(' ');
+putchar(',');
+putchar(' ');
 i++;
 }
+putchar('\n');
 return (0);
 }
