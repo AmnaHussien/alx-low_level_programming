@@ -8,20 +8,20 @@
  */
 int main(void)
 {
-int n;
-
+int n, ch;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n > 5)
-{printf("", )
- }
-else  (n == 0)
-{printf("", )
+ch = n % 10;
+if (ch > 5)
+{printf("Last digit of %i is %i and is  greater than 5\n", n, ch);
 }
- if (n n < 6 && n =! 0)
-{printf("%i Last digit of", n , "is",)
+else if (ch == 0)
+{printf("Last digit of %i is %i and is 0\n", n, ch);
 }
-
+else if (ch < 6 && ch != 0)
+{printf("Last digit of %i is %i and is less than 6 and not 0\n", n, ch);
+}
+putchar('\n');
 return (0);
 
 }
