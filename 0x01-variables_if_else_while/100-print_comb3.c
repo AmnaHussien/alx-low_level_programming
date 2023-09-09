@@ -18,7 +18,7 @@ int main(void)
              { 
                 putchar(digit + 48);
                 putchar(ch + 48);
-                if (digit != 8 && ch !
+                if (digit != 8 && ch != 9)
                  {  
                    putchar(',');
                    putchar(' ');
