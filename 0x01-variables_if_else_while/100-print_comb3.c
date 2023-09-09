@@ -24,6 +24,7 @@ putchar(' ');
 }
 ch++;
 }
+putchar(',');
 putchar(' ');
 digit++;
 }
