@@ -7,19 +7,28 @@
  *Return: Always 0 (success)
  */
 int main(void)
-{int digit = 0, ch = 0;
-while (digit <= 9)
+{int digit = 0, ch;
+while (digit <= 99)
 {
-putchar(digit + 48);
-while (ch <= 9)
+digit = ch;
+while (ch <= 99)
 {
-if (digit % 10 != ch % 100)
-putchar(ch + 48);
-digit++;
-ch++;
-}}
+if (digit != ch)
+{
+putchar((digit / 10) + 48);
+putchar ((digit % 10) + 48);
+putchar(' ');
+putchar((ch / 10) + 48);
+putchar((ch % 10) + 48);
+if (digit != 98 || ch != 99)
+{
 putchar(',');
 putchar(' ');
+}
+ch++;
+}
+digit++;
+}
 putchar('\n');
 return (0);
 }
