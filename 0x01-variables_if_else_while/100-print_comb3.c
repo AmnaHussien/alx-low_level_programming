@@ -17,17 +17,16 @@ while (ch <= 9)
 if (digit != ch && digit < ch)
 {putchar(digit + 48);
 putchar(ch + 48);
-if (digit != 8 && ch != 9)
+if (digit + ch != 17)
 {putchar(',');
 putchar(' ');
 }
 }
 ch++;
 }
-putchar(',');
-putchar(' ');
 digit++;
 }
+putchar('\n');
 return (0);
 }
 
