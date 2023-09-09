@@ -10,7 +10,7 @@ int main(void)
 {int digit = 0, ch = 0;
 while (digit <= 100)
 {
-putchar(digit);
+putchar(digit + 48);
 while (ch <= 100)
 {
 if (digit % 100 != ch % 100)
