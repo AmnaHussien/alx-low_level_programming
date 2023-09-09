@@ -24,7 +24,7 @@ putchar(' ');
 }
 ch++;
 }
-putchar('\n');
+putchar(' ');
 digit++;
 }
 return (0);
