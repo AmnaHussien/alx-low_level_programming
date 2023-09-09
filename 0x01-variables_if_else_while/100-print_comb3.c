@@ -8,7 +8,7 @@
  */
 int main(void)
 {int digit = 0, ch = 0;
-while (digit <= 100 || ch <= 100)
+while (digit <= 100 && ch <= 100)
 {
 if (digit % 10 != ch % 10)
 putchar(digit + 48);
@@ -16,7 +16,7 @@ putchar(ch + 48);
 digit++;
 ch++;
 putchar(',');
-putchar('');
+putchar(' ');
 }
 putchar('\n');
 return (0);
