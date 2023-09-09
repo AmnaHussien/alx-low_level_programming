@@ -16,7 +16,8 @@ while (ch <= 9)
 {
 ch2 = 0;
 while (ch2 <= 9)
-{if (digit != ch != ch2 && digit < ch < ch2)
+{
+if (digit != ch && digit < ch && ch != ch2 && ch < ch2)
 {putchar(digit + 48);
 putchar(ch + 48);
 putchar(ch2 + 48);
