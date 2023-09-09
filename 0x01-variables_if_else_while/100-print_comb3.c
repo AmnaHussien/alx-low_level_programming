@@ -8,10 +8,10 @@
  */
 int main(void)
 {int digit = 0, ch = 0;
-while (digit <= 100)
+while (digit <= 9)
 {
 putchar(digit + 48);
-while (ch <= 100)
+while (ch <= 9)
 {
 if (digit % 10 != ch % 100)
 putchar(ch + 48);
