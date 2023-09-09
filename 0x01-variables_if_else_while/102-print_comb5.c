@@ -25,6 +25,7 @@ if (digit != 98 || ch != 99)
 putchar(',');
 putchar(' ');
 }
+}
 ch++;
 }
 digit++;
