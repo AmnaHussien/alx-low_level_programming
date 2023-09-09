@@ -11,13 +11,14 @@ int main(void)
 while (digit <= 100)
 {
 putchar(digit + 48);
+}
 while (ch <= 100)
 {
 if (digit % 100 != ch % 100)
 putchar(ch + 48);
 digit++;
 ch++;
-}}
+}
 putchar(',');
 putchar(' ');
 putchar('\n');
