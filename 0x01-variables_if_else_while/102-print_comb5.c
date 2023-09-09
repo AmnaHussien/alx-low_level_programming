@@ -17,7 +17,7 @@ while (ch <= 99)
 ch2 = 0;
 while (ch2 <= 99)
 {ch3 = 0;
-if (digit < ch i&
+if (digit < ch &&
 ch < ch2 && ch2 < ch3)
 {putchar(digit + 48);
 putchar(ch + 48);
