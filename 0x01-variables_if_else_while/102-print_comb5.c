@@ -17,6 +17,8 @@ while (ch <= 99)
 ch2 = 0;
 while (ch2 <= 99)
 {ch3 = 0;
+while (ch3 <= 99)
+{
 if (digit != ch &&
 digit < ch && ch != ch2 &&
 ch < ch2 && ch2 != ch3 && ch2 < ch3)
@@ -31,6 +33,7 @@ putchar(' ');
 }
 }
 ch3++;
+}
 ch2++;
 }
 ch++;
