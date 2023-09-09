@@ -9,15 +9,15 @@
 int main(void)
 {
 int digit = 0, ch, ch2, ch3;
-while (digit <= 99)
+while (digit <= 9)
 {
 ch = 0;
-while (ch <= 99)
+while (ch <= 9)
 {
 ch2 = 0;
-while (ch2 <= 99)
+while (ch2 <= 9)
 {ch3 = 0;
-while (ch3 <= 99)
+while (ch3 <= 9)
 {
 if (digit != ch &&
 digit < ch && ch != ch2 &&
