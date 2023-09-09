@@ -8,7 +8,7 @@
  */
 int main(void)
 {int digit = 0, ch = 0;
-while (digit <= 100 && ch <= 100)
+while (digit <= 100)
 {
 putchar(digit);
 while (ch <= 100)
