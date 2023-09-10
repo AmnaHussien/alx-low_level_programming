@@ -20,7 +20,7 @@ putchar((digit % 10) + 48);
 putchar(' ');
 putchar((ch / 10) + 48);
 putchar((ch % 10) + 48);
-if (digit != 98 && ch != 99)
+if (digit != 98 || ch != 99)
 {putchar(',');
 putchar(' ');
 }
