@@ -19,8 +19,7 @@ while (ch2 <= 9)
 {ch3 = 0;
 while (ch3 <= 9)
 {
-if (digit < ch &&
-ch < ch2 && ch2 < ch3)
+if (digit != ch && ch != ch2 && ch2 != ch3)
 {putchar(digit + 48);
 putchar(ch + 48);
 putchar(' ');
