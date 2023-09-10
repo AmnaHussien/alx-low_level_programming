@@ -11,7 +11,7 @@ int main(void)
 int digit = 0, ch;
 while (digit <= 99)
 {
-ch = 0;
+ch = digit;
 while (ch <= 99)
 {
 if (digit != ch)
