@@ -10,7 +10,7 @@ int main(void)
 {int n, i;
 for (i = 0; i < 1024; i++)
 {
-if (n == 3 * i && n == 5 * i)
+if (n == 3 * i || n  == 5 * i)
 {
 printf("%d\n ", n);
 }
