@@ -10,9 +10,11 @@ int main(void)
 {int n, i;
 for (i = 0; i < 1024; i++)
 {
-if (n == 3 * i || n  == 5 * i)
+if (i % 3 ==  0 || i % 5  == 0)
 {
+n += i;
+}
+}
 printf("%d\n ", n);
-}
-}
+return (0);
 }
