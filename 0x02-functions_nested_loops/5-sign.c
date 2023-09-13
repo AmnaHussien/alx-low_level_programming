@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * @n: takes integer type input for function
  * print_sign - function that prints the sign of a number
- * Description: function that print + if n is greater than zero
- * or 0 if n is zero or - if n is less than zero
+ *
+ * Description: function print 1 and + if n greater than zero
+ *              print 0 and 0 if n equal zero
+ *              print -1 and - if n less than zero
+ * @n: takes integer types input for the function
  * Return: 1 if n greater than zero, 0 if n equal zero
  * -1 if n is less than zero
  */
