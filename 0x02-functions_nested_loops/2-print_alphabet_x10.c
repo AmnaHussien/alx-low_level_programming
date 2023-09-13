@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_10 - function  print alphabet from a to z 10 time
+ * print_alphabet_x10 - function  print alphabet from a to z 10 time
  * Description: print alphabet 10 time
  */
 void  print_alphabet_x10(void)
