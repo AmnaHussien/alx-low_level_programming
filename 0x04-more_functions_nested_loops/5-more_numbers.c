@@ -6,7 +6,8 @@
  * Return: Always 0 (success)
  */
 void more_numbers(void)
-{int rows, counter, number;
+{
+int rows, counter, number;
 for (rows = 1; rows <= 10; rows++)
 {
 for (counter = 0; counter <= 14; counter++)
