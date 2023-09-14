@@ -7,13 +7,13 @@
  */
 void print_line(int n)
 {
-for (int i = 1; i <= n; i++)
-{
 if (n <= 0)
 {
 putchar('\n');
 }
 else
+{
+for (int i = 1; i <= n; i++)
 {
 putchar('_');
 putchar('\n');
