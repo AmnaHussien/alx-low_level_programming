@@ -17,7 +17,7 @@ if (counter > 9)
 _putchar(1 + 48);
 number = counter % 10;
 }
-_putchar(i + 48);
+_putchar(number + 48);
 }
 _putchar('\n');
 }
