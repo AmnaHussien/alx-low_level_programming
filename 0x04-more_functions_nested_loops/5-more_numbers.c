@@ -20,6 +20,6 @@ number = counter % 10;
 }
 putchar(number + 48);
 }
-_putchar('\n');
+putchar('\n');
 }
 }
