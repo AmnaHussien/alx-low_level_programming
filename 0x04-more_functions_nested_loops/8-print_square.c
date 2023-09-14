@@ -12,8 +12,8 @@ for (i = 1; i <= size; i++)
 {
 for (m = 1; m <= size; m++)
 {
-printf('#');
+putchar('#');
 }
-printf('\n');
+putchar('\n');
 }
 }
