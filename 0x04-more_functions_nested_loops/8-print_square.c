@@ -7,13 +7,6 @@
  */
 void print_square(int size)
 {
-int i, m;
-if (size <= 0)
-{
-putchar('\n');
-}
-else
-{
 for (i = 1; i <= size; i++)
 {
 for (m = 1; m <= size; m++)
@@ -21,6 +14,5 @@ for (m = 1; m <= size; m++)
 printf('#');
 }
 printf('\n');
-}
 }
 }
