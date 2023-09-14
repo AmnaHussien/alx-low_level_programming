@@ -15,11 +15,14 @@ putchar('\n');
 }
 else
 {
-for (space = 1; space <= n ; space++)
+for (i = 1; i <= n; i++)
+{
+for (space = 1; space <= i ; space++)
 {
 putchar(' ');
 }
-putchar(92);
+_putchar(92);
 putchar('\n');
+}
 }
 }
