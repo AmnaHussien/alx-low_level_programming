@@ -26,6 +26,7 @@ else
 {
 putchar('#');
 }
+}
 putchar('\n');
 }
 }
