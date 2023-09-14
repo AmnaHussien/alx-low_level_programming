@@ -15,7 +15,7 @@ for (counter = 0; counter <= 14; counter++)
 number = counter;
 if (counter > 9)
 {
-putchar(1 + number);
+putchar(1 + 48);
 number = counter % 10;
 }
 putchar(number + 48);
