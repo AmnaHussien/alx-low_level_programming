@@ -19,6 +19,6 @@ number = counter % 10;
 }
 _putchar(i + 48);
 }
-}
 _putchar('\n');
+}
 }
