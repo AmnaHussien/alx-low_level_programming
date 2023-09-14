@@ -10,14 +10,14 @@ void print_line(int n)
 int i;
 if (n <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 else
 {
 for (i = 1; i <= n; i++)
 {
-putchar('45');
-putchar('\n');
+_putchar('_');
+_putchar('\n');
 }
 }
 }
