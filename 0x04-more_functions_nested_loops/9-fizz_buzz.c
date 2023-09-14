@@ -6,21 +6,34 @@
  * Return: Always 0.
  */
 void main(void)
-{int n;
-for (int i = 1; i <= 100; i++)
+{int i;
+for (i = 1; i <= 100; i++)
 {
-if (n == 3 * i)
-printf("fuzz");
-else if (n == 5 * i)
+if (i % 3 == 0 && !(i % 5 == 0))
+{
+printf("Fizz");
+}
+else if (i % 5 == 0 && !(i % 3 == 0))
+{
 printf("Buzz");
-else if ((n == 3 * i) && (n == 5 * i))
+}
+else if ((i % 3 == 0) && (i % 5 == 0))
+{
 printf("FizzBuzz");
+}
 else
+{
 printf("%d", i);
+}
 if (i != 100)
+{
 printf(" ");
+}
 else
+{
 printf("\n");
 }
+}
+return (0);
 }
 
