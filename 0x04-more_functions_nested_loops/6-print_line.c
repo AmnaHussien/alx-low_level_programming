@@ -16,7 +16,7 @@ else
 {
 for (i = 1; i <= n; i++)
 {
-putchar('_');
+putchar('45');
 putchar('\n');
 }
 }
