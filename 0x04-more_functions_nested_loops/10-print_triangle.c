@@ -14,9 +14,9 @@ putchar('\n');
 }
 else
 {
-for (i = 1; i <= size; i++)
+for (i = 1; i <= size; i--)
 {
-for (m = 1; m <= size; m++)
+for (m = 1; m <= size; m--)
 {
 if ((i + m) <= siz)
 {
