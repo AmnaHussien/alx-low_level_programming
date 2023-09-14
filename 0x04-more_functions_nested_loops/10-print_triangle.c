@@ -12,12 +12,21 @@ if (size <= 0)
 {
 putchar('\n');
 }
-for (i = 1; i <= size; i--)
+else
 {
-for (m = 1; m <= size; m--)
+for (i = 1; i <= size; i++)
+{
+for (m = 1; m <= size; m++)
+{
+if ((i + m) <= siz)
+{
+putchar(' ');
+}
+else
 {
 putchar('#');
 }
 putchar('\n');
+}
 }
 }
