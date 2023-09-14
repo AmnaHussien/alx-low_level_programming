@@ -22,7 +22,7 @@ for (space = 1; space <= i ; space++)
 {
 putchar(' ');
 }
-putchar(92);
+putchar('\');
 putchar('\n');
 }
 }
