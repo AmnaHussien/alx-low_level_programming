@@ -16,10 +16,10 @@ number = counter;
 if (counter > 9)
 {
 number = counter % 10;
-_putchar(1 + number);
+putchar(1 + number);
 }
-_putchar(number + 48);
+putchar(number + 48);
 }
-_putchar('\n');
+putchar('\n');
 }
 }
