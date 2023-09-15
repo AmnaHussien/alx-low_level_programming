@@ -18,9 +18,15 @@ for (i = 1; i <= size; i++)
 {
 for (m = 1; m <= size; m++)
 {
+if ((i + m) <= size)
+{
 putchar(' ');
 }
-putchar(92);
+else 
+{
+putchar('#');
+}
+}
 putchar('\n');
 }
 }
