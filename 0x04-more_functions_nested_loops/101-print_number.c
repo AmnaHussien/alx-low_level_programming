@@ -11,10 +11,11 @@ unsigned int num = n;
 if (n < 0)
 {
 putchar('-');
-putchar(num);
+num = -num;
 }
-if (n >= 0)
+if ((num / 10) > 0)
 {
-putchar(num);
+print_number(num / 10);
 }
+putchar((num % 10) + 48);
 }
