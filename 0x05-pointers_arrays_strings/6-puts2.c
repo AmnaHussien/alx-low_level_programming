@@ -7,8 +7,8 @@
  * Return: Always 0 (success)
  */
 void puts2(char *str)
-{
-for (int i = 0; str[i] != '\0'; ++i)
+{int i;
+for (i = 0; str[i] != '\0'; ++i)
 {
 if (i % 2 == 0)
 {
