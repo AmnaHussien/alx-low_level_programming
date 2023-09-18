@@ -12,5 +12,5 @@ for (counter = 0; *str != '\0'; str++)
 _putchar(*str + 0);
 counter++;
 }
-_putchar("\n");
+_putchar('\n');
 }
