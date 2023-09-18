@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 void print_rev(char *s)
-{int counter;
+{int counter = 0;
 while (s[counter])
 {
 counter++;
