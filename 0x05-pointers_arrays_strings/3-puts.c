@@ -6,11 +6,11 @@
  * Return: Always 0 (success)
  */
 void _puts(char *str)
-{
-while (*str != '\0')
+{char counter;
+for (counter = 0; *str != '\0'; str++)
 {
 printf("%s\n", *str);
-str++;
+counter++;
 }
 printf("\n");
 }
