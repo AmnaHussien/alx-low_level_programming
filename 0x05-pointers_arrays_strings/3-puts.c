@@ -7,10 +7,10 @@
  */
 void _puts(char *str)
 {
-char counter;
-while (*str != '\0'; str++)
+while (*str != '\0')
 {
-printf("%s\n", *str + 0);
+printf("%s\n", *str);
+str++;
 }
 printf("\n");
 }
