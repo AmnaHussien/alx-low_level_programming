@@ -10,7 +10,7 @@ void _puts(char *str)
 char counter;
 for (counter = 0; *str != 0; str++)
 {
-printf("%s \n", counter);
+printf("%s \n", str);
 counter++;
 }
 }
