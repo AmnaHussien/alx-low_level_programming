@@ -14,5 +14,8 @@ do {m++;
 dest[m] = src[m];
 }
 while (src[m] != '\0')
+{
+;
+}
 return (dest);
 }
