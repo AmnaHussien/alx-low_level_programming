@@ -12,11 +12,11 @@ for (m = 0; m < n; m++)
 {
 if (m != (n - 1))
 {
-printf("%d, ", a[m])
+printf("%d, ", a[m]);
 }
 else
 {
-printf("%d", a[m])
+printf("%d", a[m]);
 }
 }
 printf("\n");
