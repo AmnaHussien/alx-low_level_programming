@@ -7,10 +7,13 @@
  */
 void print_rev(char *s)
 {int counter;
-for (counter = 0; *s != '\0'; s--)
+while (s[counter])
 {
-_putchar(*s + 0);
-counter--;
+counter++;
+}
+while (counter--)
+{
+_putchar(s[counter]);
 }
 _putchar('\n');
 }
