@@ -14,9 +14,9 @@ while (dest[j])
 j++;
 }
 i = 0;
-while (src[i]; i++)
+while (src[i], i++)
 {
-dest[j] = src[i]
+dest[j] = src[i];
 j++;
 }
 return (dest);
