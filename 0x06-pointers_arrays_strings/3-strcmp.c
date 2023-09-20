@@ -19,5 +19,5 @@ break;
 s1++;
 s2++;
 }
-return (-EQ);
+return (EQ);
 }
