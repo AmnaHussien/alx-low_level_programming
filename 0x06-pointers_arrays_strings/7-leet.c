@@ -13,7 +13,7 @@ int VALUE = {4, 3, 0, 7, 1};
 unsigned int i;
 while (*c)
 {
-for (i = 0; i < sizeof(KEY) / sizeof(char); i++)
+for (i = 0; i < sizeof(KEY) / sizeof(VALUE); i++)
 {
 if (*c == KEY[i] || *c == KEY[i] + 32)
 {
