@@ -16,7 +16,8 @@ return (c >= 97 && c <= 122);
  * Return: 1 if true, 0 if false
  */
 int isDlimiter(char c)
-{int i;
+{
+int i;
 char delimiter[] = "\t\n,.!?\"() {}";
 for (i = 0; i < 12; i++)
 {
@@ -34,7 +35,8 @@ return (0);
  * Return: string with capitalize
  */
 char *cap_string(char *s)
-{char *Ptr = s;
+{
+char *Ptr = s;
 int FOUNDDILIMIT = 1;
 while (*s)
 {
