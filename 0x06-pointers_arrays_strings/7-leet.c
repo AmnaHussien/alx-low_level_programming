@@ -2,25 +2,24 @@
 /**
  * leet - function that encode string into 1337
  * Description: C programm
- * @c: input character
+ * @n: input character
  * Return: string that is encodes
  */
-char *leet(char *c)
+char *leet(char *n)
 {
-char *cp = c;
-char KEY[] = {'A', 'E', 'O', 'T', 'L'};
-int VALUE = {4, 3, 0, 7, 1};
-unsigned int i;
-while (*c)
+int i, j;
+char s1[] = "aAeEoOtTlL";
+char s2[] = "4433007711";
+for (i = 0; n[i] != '\0'; i++)
 {
-for (i = 0; i < 4; i++)
+for (j = 0; j < 10; j++)
 {
-if (*c == KEY[i] || *c == KEY[i] + 32)
+if (n[i] == s1[j])
 {
-*c = 48 + VALUE[i];
+n[i] = s2[j];
 }
 }
-c++;
+
 }
-return (cp);
+return (n);
 }
