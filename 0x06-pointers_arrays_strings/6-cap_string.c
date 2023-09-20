@@ -1,59 +1,25 @@
 #include "main.h"
 /**
- * isLower - function that dtermine if the character is lower
- * Description: C programm
- * @c: input character
- * Return: 1 if true, 0 if false
- */
-int isLower(char c)
-{
-return (c >= 97 && c <= 122);
-}
-/**
- * isDlimiter - function that dtermine if the ascii is dlimiter
- * Description: C programm
- * @c: input character
- * Return: 1 if true, 0 if false
- */
-int isDlimiter(char c)
-{
-int i;
-char delimiter[] = "\t\n,.!?\"() {}";
-for (i = 0; i < 12; i++)
-{
-if (c == delimiter[i])
-{
-return (1);
-}
-}
-return (0);
-}
-/**
  * cap_string - function that  capitalizes all words of a string.
  * Description: C programm
- * @s: input character
+ * @str: input character
  * Return: string with capitalize
  */
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
-char *Ptr = s;
-int FOUNDDILIMIT = 1;
-while (*s)
+int index = 0;
+while (str[index])
 {
-if (isDlimiter(*s))
-{
-FOUNDDILIMIT = 1;
+while (!(str[index] >= 'a' && str[index] <= 'z'))
+index++;
+if (str[index - 1] == '' || str[index - 1] == '\t' ||
+str[index - 1] == ',' || str[index - 1] == ';' ||
+str[index - 1] == '.' || str[index - 1] == '!' ||
+str[index - 1] == '?' || str[index - 1] == '"' ||
+str[index - 1] == '(' || str[index - 1] == ')' ||
+str[index - 1] == '{' || str[index - 1] == '}' || index == 0)
+str[index] -= 32;
+index++;
 }
-else if (isLower(*s) && FOUNDDILIMIT)
-{
-*s -= 32;
-FOUNDDILIMIT = 0;
-}
-else
-{
-FOUNDDILIMIT = 0;
-}
-s++;
-}
-return (ptr);
+return (str);
 }
