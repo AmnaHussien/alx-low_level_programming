@@ -13,8 +13,7 @@ while (dest[j])
 {
 j++;
 }
-i = 0;
-while (src[i], i++)
+for (i = 0; src[i] ; i++)
 {
 dest[j++] = src[i];
 }
