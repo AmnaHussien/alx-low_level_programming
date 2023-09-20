@@ -5,7 +5,7 @@
  * @c: input character
  * Return: 1 if true, 0 if false
  */
-char isLower(char *c)
+int isLower(char c)
 {
 return (c >= 97 && c <= 122);
 }
@@ -46,7 +46,7 @@ FOUNDDILIMIT = 1;
 }
 else if (isLower(*s) && FOUNDDILIMIT)
 {
-*s = *s - 32;
+*s -= 32;
 FOUNDDILIMIT = 0;
 }
 else
