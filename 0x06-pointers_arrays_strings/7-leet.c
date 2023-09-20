@@ -6,7 +6,8 @@
  * Return: string that is encodes
  */
 char *leet(char *c)
-{char *cp = c;
+{
+char *cp = c;
 char KEY[] = {'A', 'E', 'O', 'T', 'L'};
 int VALUE = {4, 3, 0, 7, 1};
 unsigned int i;
