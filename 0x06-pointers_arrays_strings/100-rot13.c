@@ -7,10 +7,8 @@
  */
 char *rot13(char *str)
 {int i;
-char rot13[] = "abcdefghijklmnopqrstuvwx
-yzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-char ROT13[] = "nopqrstuvwxyzabcdefghijk
-lmNOPQRSTUVWXYZABCDEFGHIJKLM";
+char rot13[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char ROT13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 char *ptr = str;
 while (*str)
 {
