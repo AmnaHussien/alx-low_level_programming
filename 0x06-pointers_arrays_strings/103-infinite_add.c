@@ -44,6 +44,7 @@ while (l-- >= 0)
 r[0] = d + '0'; }
 if (d == size_r)
 {return(0);
-*(r + d) = '\0'; }
+*(r + d) = '\0';
+rev_str(r);}
 return (r);
 }
