@@ -11,14 +11,14 @@ char rot13[] = "abcdefghijklmnopqrstuvwx
 yzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 char ROT13[] = "nopqrstuvwxyzabcdefghijk
 lmNOPQRSTUVWXYZABCDEFGHIJKLM";
-*ptr = str;
+char *ptr = str;
 while (*str)
 {
 for (i = 0; i <= 52; i++)
 {
-if (*s == rot13[i])
+if (*str == rot13[i])
 {
-*s = ROT13[i];
+*str = ROT13[i];
 break;
 }}
 str++;
