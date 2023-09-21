@@ -45,6 +45,6 @@ r[0] = d + '0'; }
 if (d == size_r)
 {return(0);
 *(r + d) = '\0';
-rev_str(r);}
+rev_string(r); }
 return (r);
 }
