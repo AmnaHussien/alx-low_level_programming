@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_cheseboard -  function that prints the chessboard
+ * print_chessboard -  function that prints the chessboard
  * Description: C programm
  * @a: the rows
  * Return: nothing
  */
-void print_cheseboard(char (*a)[8])
+void print_chessboard(char (*a)[8])
 {
 int i, j;
 for (i = 0; i < 8; i++)
