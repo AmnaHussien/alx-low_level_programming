@@ -4,7 +4,7 @@
  * Description: C programm
  * @s: pointer to pointer
  * @to: pointer to char
- * Return: nothing
+ * Return: always 0 (success)
  */
 void set_string(char **s, char *to)
 {
