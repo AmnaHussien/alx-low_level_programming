@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * set_string -  function that sets the value of a pointer to a char
+ * _strstr -  function that locates a substring
  * Description: C programm
- * @s: pointer to pointer
- * @to: pointer char
+ * @haystack: input
+ * @needle: input
  * Return: always 0 (success)
  */
-void set_string(char **s, char *to)
+void *_strstr(char *haystack, char *needle)
 {
 for (; *haystack != '\0'; haystack++)
 {
