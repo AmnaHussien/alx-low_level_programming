@@ -5,7 +5,7 @@
  * Description: C programm
  * @s: input
  * @to: input
- * Return: always 0 (success)
+ * Return: nothing
  */
 void set_string(char **s, char *to)
 {
