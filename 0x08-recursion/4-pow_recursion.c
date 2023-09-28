@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-/** 
- * _pow_recursion - function that searches a string for any of a set of bytes 
+/**
+ * _pow_recursion - function that searches a string for any of a set of bytes
  * @x: int
  * @y: int
  * Return: int numer
