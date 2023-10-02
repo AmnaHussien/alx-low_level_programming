@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * @argc: int 
+ * @argc: int
  * @argv: list
  * Return: always 0
  */
