@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - entry point
- * @argc: number of command line argument 
+ * @argc: number of command line argument
  * @argv: pointer to an array
  * Return: always 0
  */
