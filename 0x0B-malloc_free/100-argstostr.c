@@ -1,5 +1,19 @@
 #include "main.h"
 /**
+ * _strlen - find the length of string
+ * @ss: string
+ * Return: int
+ */
+int _strlen(char *ss)
+{
+int size = 0;
+for (ss[size] != '\0'; size++)
+{
+;
+}
+return (size);
+}
+/**
  * *argstostr - description
  * @ac: int
  * @av: parameter
