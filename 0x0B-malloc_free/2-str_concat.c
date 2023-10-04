@@ -34,7 +34,7 @@ s2 = "\0";
 }
 size11 = _strlen(s1);
 size22 = _strlen(s2);
-mm = malloc((size11 + size22) *(sizeof(char) + 1));
+mm = malloc((size11 + size22) * (sizeof(char) + 1));
 if (mm == 0)
 {
 return (0);
