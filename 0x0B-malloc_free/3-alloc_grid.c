@@ -9,13 +9,13 @@ int **alloc_grid(int width, int height)
 {
 int **tabb, ii, jj;
 tabb = malloc(sizeof(*tabb) * height);
-if (width <= 0 || height <= 0 || tabb ==0)
+if (width <= 0 || height <= 0 || tabb == 0)
 {
 return (NULL);
 }
 else
 {
-for (ii =0; ii < height ; ii++)
+for (ii = 0; ii < height ; ii++)
 {
 tabb[ii] = malloc(sizeof(**tabb) * width);
 if (tabb[ii] == 0)
