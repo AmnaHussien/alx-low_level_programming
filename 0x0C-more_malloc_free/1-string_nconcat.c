@@ -9,12 +9,13 @@
  */
 char *string_nconcat(char  *s1, char *s2, unsigned int n)
 {
+char *m;
 unsigned int i, j, size1, size2;
-if (s1 == 0)
+if (s1 == NULL)
 {
-s1 == "";
+s1 = "";
 }
-if (s2 == 0)
+if (s2 == NULL)
 {
 s2 = "";
 }
