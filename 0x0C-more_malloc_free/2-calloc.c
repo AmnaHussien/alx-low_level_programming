@@ -1,7 +1,7 @@
 #include "main.h"
-/*
- * *-memset - files memory with constant byte
- * Description: c programm
+/**
+ * *_memset - files memory with constant byte
+ * description: c programm
  * @ss: pointer
  * @bb: costant
  * @nn: max bytes to use
@@ -10,14 +10,16 @@
 char *_memset(char *ss, char bb, unsigned int nn)
 {
 char *ptr = ss;
-while (n--)
+while (nn--)
 {
-*ss++ = b;
+*ss++ = bb;
+}
 return (ptr);
 }
-}
+
 /**
  * *_calloc - allocates memory for array
+ * Description: c programm
  * @nmemb: array length
  * @size: size of each element
  * Return: pointer
