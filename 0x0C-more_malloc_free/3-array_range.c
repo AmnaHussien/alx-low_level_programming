@@ -4,22 +4,23 @@
  * Description: c programm
  * @min: minimum int
  * @max: maximum int
- * Return: array of int 
+ * Return: array of int
  */
 int *array_range(int min, int max)
 {
-int *m, l, i;
-if ( min > max)
+int l, i;
+int *m;
+if (min > max)
 {
 return (NULL);
 }
 l = max - min + 1;
-m = malloc(sizeof(int) * l)
+m = malloc(sizeof(int) * l);
 if (m == 0)
 {
 return (NULL);
 }
-for(i = 0; i < l; i++)
+for (i = 0; i < l; i++)
 {
 m[i] = min++;
 }
