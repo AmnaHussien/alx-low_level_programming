@@ -26,16 +26,16 @@ return (ptr);
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-void *m;
+void *n;
 if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-m = malloc(sizeof(int) * nmemb);
-if (m == 0)
+n = malloc(sizeof(int) * nmemb);
+if (n == 0)
 {
 return (NULL);
 }
-_memset(m, 0, sizeof(int) * nmemb);
-return (m);
+_memset(n, 0, sizeof(int) * nmemb);
+return (n);
 }
