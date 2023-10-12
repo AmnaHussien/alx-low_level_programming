@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdarg.h>
+#include "variadic_functions.h"
+/**
+ * print_numbers - print num
+ * Description: c programm
+ * @separator: pointer
+ * @n: the number of numbers
+ * Return: summation
+ */
+void print_numbers(const char *separator, const unsigned int n, ...)
+{
+va_list ar;
+unsigned int j;
+va_start(ar, n);
+for (j = 0; j < n; j++)
+{
+printf("%d", va_arg(ar, int));
+printf("%p", separator);
+}
+va_end(ar);
+}
