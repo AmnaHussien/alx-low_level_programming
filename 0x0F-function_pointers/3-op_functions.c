@@ -1,4 +1,4 @@
-#include "main.h"
+#include "3-calc.h"
 /**
  * op_add - add 2 num
  * Description: c programm
@@ -41,7 +41,7 @@ return (a * b);
  */
 int op_div(int a, int b)
 {
-return (a \ b);
+return (a / b);
 }
 /**
  * op_mod - modulo 2 num
