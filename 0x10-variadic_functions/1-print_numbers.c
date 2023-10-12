@@ -16,7 +16,11 @@ va_start(ar, n);
 for (j = 0; j < n; j++)
 {
 printf("%d", va_arg(ar, int));
+if (j != (n - 1) && separator != NULL)
+{
 printf("%p", separator);
 }
+}
+printf("\n");
 va_end(ar);
 }
