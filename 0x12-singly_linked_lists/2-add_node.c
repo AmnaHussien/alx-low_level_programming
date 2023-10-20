@@ -19,7 +19,7 @@ return (count);
  * Description: c programm
  * @head: pointer
  * @str: string
- * Return: the length of string
+ * Return: the nodes
  */
 list_t *add_node(list_t **head, const char *str)
 {
