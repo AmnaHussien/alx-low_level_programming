@@ -1,25 +1,11 @@
 #include "lists.h"
-/**
- * _stlen - function that return the length of string
- * Description: c programm
- * @p: character
- * Return: the length of string
- */
-int _stlen(char *p)
-{
-int count = 0;
-if (!p)
-{ return (0); }
-while (*p++)
-{ count++; }
-return (count);
-}
+int _stlen(char *p);
 /**
  * *add_node - f function that adds new node at the beginning of list_t lis
  * Description: c programm
  * @head: pointer
  * @str: string
- * Return: the nodes
+ * Return: the address of new element or 0 if it failed
  */
 list_t *add_node(list_t **head, const char *str)
 {
