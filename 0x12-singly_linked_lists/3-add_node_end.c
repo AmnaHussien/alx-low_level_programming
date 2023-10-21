@@ -23,18 +23,22 @@ return (count);
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-list_t *ptr, *temp;
-ptr = *head;
-temp = (list_t *)malloc(sizeof(list_t));
-if (!temp)
+list_t *temp;
+list_t *ptr = *head;
+temp = malloc(sizeof(list_t));
+if (!head || !temp)
 { return (NULL); }
 if (str)
-{temp->str = strdup(str); }
+{temp->str = strdup(str);
 temp->len = _stlen(temp->str);
-temp->next = NULL;
+temp->next = NULL; }
+if (ptr)
+{
 while (ptr->next != NULL)
 { ptr = ptr->next; }
 ptr->next = temp;
-printf("[%d] %s\n", ptr->len, ptr->str);
-return (0);
+}
+else
+{ *head = temp; }
+return (temp);
 }
