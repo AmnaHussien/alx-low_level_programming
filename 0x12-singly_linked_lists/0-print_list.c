@@ -22,12 +22,12 @@ return (count);
  */
 size_t print_list(const list_t *h)
 { size_t counter = 0;
-const list_t *ptr = NULL;
-ptr = h;
-while (ptr)
+
+
+while (h)
 {
-printf("[%d] %s\n", _stlen(ptr->str), ptr->str ? ptr->str : "(nil)");
-ptr = ptr->next;
+printf("[%d] %s\n", _stlen(h->str), h->str ? h->str : "(nil)");
+h = h->next;
 counter++;
 }
 return (counter);
