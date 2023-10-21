@@ -35,5 +35,6 @@ temp->next = NULL;
 while (ptr->next != NULL)
 { ptr = ptr->next; }
 ptr->next = temp;
-return (temp);
+printf("[%d] %s\n", ptr->len, ptr->str);
+return (0);
 }
