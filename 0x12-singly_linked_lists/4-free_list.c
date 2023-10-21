@@ -13,7 +13,7 @@ if (!head)
 ptr = head;
 while (ptr)
 {
-temp = ptr->next;       
+temp = ptr->next;
 free(ptr->str);
 free(ptr);
 ptr = temp;
