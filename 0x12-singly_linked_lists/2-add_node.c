@@ -29,10 +29,7 @@ if (!head || !ptr)
 if (str)
 {
 ptr->str = strdup(str);
-if (!ptr->str)
-{ free(ptr);
-return (0);
-}
+ptr->next = NULL;
 ptr->len = _stlen(ptr->str);
 }
 ptr->next = *head;
