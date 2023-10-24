@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_listint - function that frees list of integer
+ * free_listint2 - function that frees list of integer
  * Description: c programm
  * @head: address of pointer to the first node
  * Return: nothing
