@@ -19,6 +19,7 @@ typedef struct listint_s
 } listint_t;
 
 int _putchar(char c);
+listint_t *find_listint_loop(listint_t *head);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 listint_t *add_nodeint(listint_t **head, const int n);
 size_t listint_len(const listint_t *h);
