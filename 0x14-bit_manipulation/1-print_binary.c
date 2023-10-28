@@ -8,9 +8,9 @@
 void print_binary(unsigned long int n)
 {
 unsigned long int i;
-for (i = 0; i <= n; i++)
+for (i = (1 << 31); i > 0; i++)
 {
-printf("%lu", (n << i) & 1);
+(n & i) ? printf("1") : printf("0");
 
 }
 }
