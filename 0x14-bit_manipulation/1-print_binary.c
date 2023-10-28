@@ -6,10 +6,11 @@
  * Return: the binary representation of a number
  */
 void print_binary(unsigned long int n)
-{ int i;
-for (i = sizeof(n) * 8; i > 0; --i)
-{
-(n & i) ? printf("1") : printf("0");
+{ int i = sizeof(n) * 8;
+while (i)
+if (n & 1 << --i)
+{ printf("1"); }
+else
+{ printf("0"); }
 
-}
 }
