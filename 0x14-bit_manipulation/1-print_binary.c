@@ -7,8 +7,8 @@
  */
 void print_binary(unsigned long int n)
 {
-unsigned long int i;
-for (i = (1 << 31); i < n; i++)
+unsigned long int i = 0;
+for (i = (1 << _stlen(n)); i < n; i++)
 {
 printf("%lu", (n >> i) & 1);
 }
