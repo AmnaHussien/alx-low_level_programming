@@ -8,7 +8,7 @@
 void print_binary(unsigned long int n)
 {
 unsigned long int i;
-for (i = 32; i > 0; i++)
+for (i = 32; i > 0; i--)
 {
 printf("%lu", (n >> i) & 1);
 }
