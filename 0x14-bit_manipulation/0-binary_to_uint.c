@@ -13,10 +13,10 @@ unsigned int p = 0;
 int j = 0;
 if (b == NULL)
 { return (0); }
- while (b[j] == '0' || b[j] == '1')
+while (b[j] == '1' || b[j] == '0')
 {
 p = p << 1;
-p = p + b[j]-'0';
+p = p + b[j] - '0';
 j++;
 }
 return (p);
