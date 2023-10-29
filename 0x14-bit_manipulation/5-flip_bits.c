@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flip_bits - function return numb of bit that would need to be flipped 
+ * flip_bits - function return numb of bit that would need to be flipped
  * Description: c programm
  * @n: first number
  * @m: second number
@@ -13,7 +13,7 @@ unsigned long int counter = 0;
 while (p)
 {
 if (p & 1uL)
-{ counter ++;}
+{ counter++; }
 p = p >> 1;
 }
 return (counter);
