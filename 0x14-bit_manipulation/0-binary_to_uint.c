@@ -10,14 +10,15 @@
 unsigned int binary_to_uint(const char *b)
 {
 unsigned int p = 0;
-int j = 0;
-if (b == NULL)
+
+if (!b)
 { return (0); }
-while (b[j] == '1' || b[j] == '0')
+
+while (*b)
 {
-p = p << 1;
-p = p + b[j] - '0';
-j++;
+if (*b != '0' && *b != '1')
+{ return (0); }
+p = p * 2 + (*b++ - '0');
 }
 return (p);
 }
