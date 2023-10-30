@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * append_text_to_file - Write a function that appends text at the end of a file.
+ * append_text_to_file - Write a function that
+ * appends text at the end of a file.
  * Description: cprogramm
- * @filename: name of file 
+ * @filename: name of file
  * @text_content: text to write
  * Return: 1 on success, -1 on failure
  */

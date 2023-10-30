@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * read_textfile - function that reads a text file and prints it to the POSIX standard output.
+ * read_textfile - function that reads a text
+ * file and prints it to the POSIX standard output.
  * Description: cprogramm
  * @filename: name of byte to read
  * @letters: num of byte to read
@@ -17,7 +18,7 @@ fdd = open(filename, O_RDONLY);
 if (fdd == -1)
 { return (0); }
 byt = read(fdd, &arr[0], letters);
-byt= write(STDOUT_FILENO, &arr[0], byt);
+byt = write(STDOUT_FILENO, &arr[0], byt);
 close(fdd);
 return (byt);
 }
