@@ -242,7 +242,7 @@ exit(98);
  *              the function fails - exit code 98.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
-{ Elf64_Ehdr  *head;
+{ Elf64_Ehdr  * head;
 int p, m;
 p = open(argv[1], O_RDONLY);
 if (p == -1)
