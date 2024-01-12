@@ -25,7 +25,7 @@ else
 while (ptr->next != NULL)
 { ptr = ptr->next; }
 ptr->next = temp;
-temp->prev = ptr
+temp->prev = ptr;
 }
 return (temp);
 }
