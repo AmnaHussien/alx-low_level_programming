@@ -13,7 +13,6 @@ dlistint_t *temp = malloc(sizeof(dlistint_t));
 dlistint_t *ptr;
 if (!head || !temp)
 { return (NULL); }
-
 temp->n = n;
 temp->next = NULL;
 if (!*head)
