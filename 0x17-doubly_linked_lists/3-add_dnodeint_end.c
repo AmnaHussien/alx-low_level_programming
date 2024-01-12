@@ -17,12 +17,15 @@ if (!head || !temp)
 temp->n = n;
 temp->next = NULL;
 if (!*head)
-{ *head = temp; }
+{ 
+temp->prev = NULL;		
+*head = temp; }
 else
 { ptr = *head;
 while (ptr->next != NULL)
 { ptr = ptr->next; }
 ptr->next = temp;
+temp->prev = ptr
 }
 return (temp);
 }
