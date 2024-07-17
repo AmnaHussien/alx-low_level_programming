@@ -10,15 +10,19 @@
  * @value: the value to search for
  * Return: Always EXIT_SUCCESS
  */
-int linear_search(int *array, size_t size, int value) :
-int found = 0;
-
-for (i = array; i < size; i++)
+int linear_search(int *array, size_t size, int value)
 {
-	if (linear_search[i] == value)
-		printf(linear_search[i])
-		found = 1
+	int found = 0;
+	size_t i;
+
+	for (i = 0; i < size; i++)
+	{
+		printf("Value checked array[%lu] = [%d]\n", i, *(array + i));
+		if (*(array + i) == value)
+			return (i);
+		found = 1;
 		break;
+	}
+	if (found == 0 || size < 1 || array == NULL)
+		return (-1);
 }
-if found == 0 or array == NULL
-		return -1
