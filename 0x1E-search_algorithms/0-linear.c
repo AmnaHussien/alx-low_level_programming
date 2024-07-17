@@ -11,16 +11,14 @@
  * Return: Always EXIT_SUCCESS
  */
 int linear_search(int *array, size_t size, int value) :
-	int found = 0;
+int found = 0;
 
-	for (i = array; i < size; i++)
-	{
-			if (linear_search[i] == value)
-			{
-				printf(linear_search[i])
-				found = 1
-				break;
-			}
-		}
-	if found == 0 or array == NULL
+for (i = array; i < size; i++)
+{
+	if (linear_search[i] == value)
+		printf(linear_search[i])
+		found = 1
+		break;
+}
+if found == 0 or array == NULL
 		return -1
